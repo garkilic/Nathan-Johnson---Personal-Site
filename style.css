@@ -1,0 +1,109 @@
+* {
+	line-height: 1.6;
+	margin: 0 auto;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Montserrat", sans-serif;
+	background-color: #fef9f8;
+	color: #0d0d0d;
+}
+
+/* General Styling */
+.grid {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid div {
+	margin: 1em;
+}
+
+.hero,
+.about-me,
+.competencies,
+.contact {
+	margin: 4em 0;
+}
+
+a {
+	color: #ef9273;
+	font-weight: bold;
+}
+
+/* Hero  */
+
+.hero {
+	text-align: center;
+	margin: 2em 0;
+	padding: 3em 0;
+}
+
+.hero h2 {
+	font-size: 3rem;
+}
+
+.hero p {
+	font-size: 1.5rem;
+	margin-bottom: 1em;
+}
+
+/* About Me */
+
+.about-me {
+	text-align: center;
+}
+
+.about-me-container {
+	max-width: 500px;
+}
+
+.about-me p,
+.about-me h2 {
+	margin: 1em 0;
+}
+
+.about-img {
+	border-radius: 50px;
+}
+
+/* Competencies */
+
+.competencies {
+	text-align: center;
+	padding: 1rem;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.competencies h2 {
+	margin: 1em;
+}
+.competencies-container {
+	max-width: 1000px;
+}
+
+/* Portfolio */
+.portfolio {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	margin: 1rem;
+}
+.portfolio-item {
+	text-align: center;
+}
+.portfolio-img {
+	width: 100px;
+}
+
+/* Contact Me */
+
+.contact {
+	text-align: center;
+}
+.contact h2 {
+	margin-bottom: 2em;
+}
+
+.contact a {
+	margin: 0 2em;
+}
