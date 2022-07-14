@@ -69,6 +69,11 @@ a {
 
 .competencies h2 {
 	margin: 1em;
+	font-size: 2rem;
+}
+
+.competencies p {
+	font-size: 0.8rem;
 }
 
 /* About Me */
@@ -99,7 +104,7 @@ a {
 	margin: 1em;
 }
 .portfolio-img {
-	width: 100px;
+	max-width: 70px;
 }
 
 /* Contact Me */
