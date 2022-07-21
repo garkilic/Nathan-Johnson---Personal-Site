@@ -12,6 +12,7 @@
 }
 
 /* General Styling */
+
 .grid {
 	display: grid;
 	align-items: center;
@@ -40,10 +41,14 @@ a {
 	font-weight: bold;
 }
 
+.highlight {
+	color: #ef9273;
+	font-weight: 500;
+}
+
 /* Hero  */
 
 .hero {
-	margin: 2em 0;
 	padding: 3em 0;
 }
 
@@ -74,6 +79,11 @@ a {
 
 .competencies p {
 	font-size: 0.8rem;
+}
+
+.competencies-container p {
+	width: 50%;
+	padding-bottom: 1em;
 }
 
 /* About Me */
