@@ -82,8 +82,11 @@ a {
 	font-size: 0.8rem;
 }
 
-.competencies-container p {
+.competencies-container {
 	margin: 1em;
+}
+
+.competencies-container p {
 	padding-bottom: 1em;
 }
 
