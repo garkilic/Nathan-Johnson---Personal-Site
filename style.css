@@ -68,7 +68,7 @@ a {
 .competencies-item,
 .portfolio-item {
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-	padding: 1rem;
+	padding: 1em;
 	border-radius: 25px;
 }
 
@@ -82,7 +82,7 @@ a {
 }
 
 .competencies-container p {
-	width: 50%;
+	width: 75%;
 	padding-bottom: 1em;
 }
 
