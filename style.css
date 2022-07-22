@@ -8,6 +8,7 @@
 	font-family: "Montserrat", sans-serif;
 	background-color: #fef9f8;
 	color: #0d0d0d;
+	left: 0;
 }
 
 /* General Styling */
@@ -82,7 +83,7 @@ a {
 }
 
 .competencies-container p {
-	width: 75%;
+	margin: 1em;
 	padding-bottom: 1em;
 }
 
