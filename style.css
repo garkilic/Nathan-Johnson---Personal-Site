@@ -17,11 +17,12 @@
 	display: grid;
 	align-items: center;
 	grid-template-columns: 1fr 1fr 1fr;
+	padding-top: 1em;
 }
 
 @media (max-width: 700px) {
 	.grid {
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
 }
 
@@ -63,23 +64,17 @@ a {
 /* Competencies */
 
 .competencies {
-	padding: 1rem;
+	padding: 0 1rem 1rem 1rem;
 }
 .competencies-item,
 .portfolio-item {
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-	padding: 1em;
-	margin: 1rem;
+	padding: 1rem;
 	border-radius: 25px;
 }
 
 .competencies h2 {
 	margin: 1em;
-	font-size: 2rem;
-}
-
-.competencies p {
-	font-size: 0.8rem;
 }
 
 .competencies-container {
@@ -92,14 +87,12 @@ a {
 
 /* About Me */
 
-.about-me-container {
-	max-width: 700px;
+.about-me {
+	padding: 0 1rem;
 }
 
-@media (max-width: 700px) {
-	.about-me-container {
-		padding: 2rem;
-	}
+.about-me-container {
+	max-width: 700px;
 }
 
 .about-me p,
@@ -110,8 +103,6 @@ a {
 .about-img {
 	border-radius: 50px;
 }
-
-/* Portfolio */
 
 .portfolio h2 {
 	text-align: center;
