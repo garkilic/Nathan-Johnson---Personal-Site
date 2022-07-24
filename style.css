@@ -124,3 +124,7 @@ a {
 .contact a {
 	margin: 0 2em;
 }
+
+.contact a:hover {
+	text-decoration: underline;
+}
