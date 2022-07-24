@@ -97,10 +97,6 @@ a {
 	padding: 0 1rem;
 }
 
-.about-me-container {
-	max-width: 700px;
-}
-
 .about-me p,
 .about-me h2 {
 	margin: 1em 0;
@@ -110,10 +106,6 @@ a {
 	border-radius: 50px;
 }
 
-.portfolio h2 {
-	text-align: center;
-	margin: 1em;
-}
 .portfolio-img {
 	max-width: 70px;
 }
