@@ -47,6 +47,14 @@ a {
 	font-weight: 500;
 }
 
+.container {
+	right: 0;
+	left: 0;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 900px;
+}
+
 @media (max-width: 450px) {
 	.bar {
 		display: none;
@@ -69,26 +77,27 @@ a {
 
 /* Competencies */
 
-.competencies {
-	padding: 0 1rem 1rem 1rem;
-}
-.competencies-item,
+.spec-item,
 .portfolio-item {
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	padding: 1rem;
 	border-radius: 25px;
 }
 
-.competencies h2 {
+.spec-title {
+	margin: 1em 0;
+}
+
+.spec-container {
 	margin: 1em;
 }
 
-.competencies-container {
-	margin: 1em;
-}
-
-.competencies-container p {
+.spec-container p {
 	padding-bottom: 1em;
+}
+
+.spec-img {
+	max-width: 70px;
 }
 
 /* About Me */
@@ -104,10 +113,6 @@ a {
 
 .about-img {
 	border-radius: 50px;
-}
-
-.portfolio-img {
-	max-width: 70px;
 }
 
 /* Contact Me */
