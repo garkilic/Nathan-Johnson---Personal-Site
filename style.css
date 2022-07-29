@@ -59,6 +59,9 @@ a {
 	.bar {
 		display: none;
 	}
+	.hero-quote {
+		padding: 0 2em;
+	}
 }
 
 /* Hero  */
