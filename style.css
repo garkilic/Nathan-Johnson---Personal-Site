@@ -144,3 +144,15 @@ a {
 .contact a:hover {
 	text-decoration: underline;
 }
+
+/* Watermark */
+
+.watermark {
+	opacity: 0.35;
+	font-weight: 200;
+	padding-bottom: 2em;
+}
+
+.watermark a:hover {
+	text-decoration: underline;
+}
