@@ -80,6 +80,8 @@ a {
 
 .hero p {
 	font-size: 1.3rem;
+	margin-top: 1em;
+	font-weight: bold;
 }
 
 /* Competencies */
